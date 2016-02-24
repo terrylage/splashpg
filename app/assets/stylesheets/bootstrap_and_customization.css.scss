@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import 'bootstrap';
+
+body {
+    background: url('suspension-bridge.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: 'Segoe UI', Helvetica;
+    font-weight: 100;
+    font-size: 60px;
+}
+p {
+    font-family: 'PT+Serif';
+    font-weight: 200;
+    font-size: 16px;
+}
+.container {
+    width: 750px;
+    margin: 100px auto;
+    background: black;
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    border-radius: 40px;
+}
